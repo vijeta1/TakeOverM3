@@ -54,7 +54,7 @@ def takeover(mainfile):
 		if subd == "":
 			continue
 		try:
-			response = requests.get("https://"+subd, timeout=5, headers=headers)
+			response = requests.get("https://"+subd, timeout=10, headers=headers)
 			response.text
 		except requests.exceptions.ConnectionError:
 			continue
