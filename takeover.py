@@ -70,9 +70,9 @@ def Main():
 	ascii_banner = pyfiglet.figlet_format("TakeOverM3")
 	print(ascii_banner)
 	parser = argparse.ArgumentParser()
-	parser.add_argument("Subdomain List", help="Usage python3.7 takeover.py subdomain.txt", type= str)
+	parser.add_argument("SubdomainList", help="Usage python3.7 takeover.py subdomain.txt", type= str)
 	args = parser.parse_args()
-	takeover(args.hostlink)
+	takeover(args.SubdomainList)
 
 if __name__ == "__main__":
     Main()
