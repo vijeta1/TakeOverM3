@@ -41,7 +41,7 @@ fingerprint = [
 	"You are being <a href=\"https://www.statuspage.io\">redirected",
 ]
 
-headers = {'user-agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0'}
+headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:80.0) Gecko/20100101 Firefox/80.0'}
 
 def takeover(mainfile):
 	count = len(open(sys.argv[1]).readlines( ))
